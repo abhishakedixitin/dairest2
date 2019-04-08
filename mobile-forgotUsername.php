@@ -186,7 +186,7 @@
               
                <h3 style="text-align:center">Get your registered Username </h3><br><br>
       <h4 style="font-size: 15%vw">Registered Email Id:</h4>
-          <input type="email" id="mail" name="user_email" style="border-color:rgb(110,65,30);border-width:thin" size="30" required><br>
+          <input type="email" id="mail" name="user_email" style="border-color:rgb(110,65,30);border-width:thin" size="" required><br>
                    <p> <a href= "forgotEmail.php" style="color:blue;margin-top:5%; font-size: 110%;text-decoration: underline">Forgot Email Id?</a></p>
           
               <center><button class="button" type="submit" style="margin-top:6%">Submit</button></center>
