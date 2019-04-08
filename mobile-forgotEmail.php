@@ -186,7 +186,7 @@
         <h5 style="font-size: 150%; text-align:center">Get OTP on registered Mobile no. </h5><br><br>
       <h4 style="font-size: 120%;">Registered Mobile:</h4>
           		        <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="mobile" name="user_mobile" required title="Format: XXX-XXX-XXXX"   
- style="border-color:rgb(110,65,30);border-width:thin" size="30" required><br>
+ style="border-color:rgb(110,65,30);border-width:thin" size="" required><br>
                    <p> <a href= "forgotMobile.php" style="color:blue;margin-top:5%; font-size: 110%;text-decoration: underline">Forgot Mobile no.?</a></p>
           
          <center><button class="button" type="submit" style="margin-top:6%">Submit</button></center>
