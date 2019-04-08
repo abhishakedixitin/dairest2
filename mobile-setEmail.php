@@ -187,13 +187,13 @@
               
      <h4 style="font-size: 15%vw;">Registered Mobile:</h4>
           		        <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="mobile" name="user_mobile" required title="Format: XXX-XXX-XXXX"   
- style="border-color:rgb(110,65,30);border-width:thin" size="30" required><br><br>
+ style="border-color:rgb(110,65,30);border-width:thin" size="" required><br><br>
           
         <h4 style="font-size: 15%vw">Enter new Email Id:</h4>
-          <input type="email" id="mail" name="user_email" style="border-color:rgb(110,65,30);border-width:thin" size="30" required><br><br>
+          <input type="email" id="mail" name="user_email" style="border-color:rgb(110,65,30);border-width:thin" size="" required><br><br>
               
               <h4 style="font-size: 15%vw">Re-type new Email Id:</h4>
-          <input type="email" id="mail" name="user_email" style="border-color:rgb(110,65,30);border-width:thin" size="30" required><br><br>
+          <input type="email" id="mail" name="user_email" style="border-color:rgb(110,65,30);border-width:thin" size="" required><br><br>
               
           <center><button class="button" type="submit" style="margin-top:6%">Submit</button></center><br><br>
                </form>
