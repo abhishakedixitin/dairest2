@@ -186,7 +186,7 @@
         <h3 style="font-size: 50%vw; text-align:center">Enter OTP received </h3><br><br>
       <h4 style="font-size: 15%vw;">OTP:</h4>
           		        <input type="text" pattern="[0-9]{6}" id="OTP" name="OTP" required    
- style="border-color:rgb(110,65,30);border-width:thin" size="20" required><br>
+ style="border-color:rgb(110,65,30);border-width:thin" size="" required><br>
                   
           
            <center><button class="button" type="submit" style="margin-top:6%">Submit</button></center>
