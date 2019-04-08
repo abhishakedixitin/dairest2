@@ -188,15 +188,15 @@
         <h4 style="font-size: 150%"  >Username:</h4>
           
           
-		    <input type="text" id="name" pattern="^[A-Za-z0-9_]{6,15}$" name="user_name" style="border-color:rgb(110,65,30);border-width:thin" size="30" required title="Username can contain UpperCase or LowerCase alphabet or number, and should be 6-15 characters long"><br><br>
+		    <input type="text" id="name" pattern="^[A-Za-z0-9_]{6,15}$" name="user_name" style="border-color:rgb(110,65,30);border-width:thin" size="" required title="Username can contain UpperCase or LowerCase alphabet or number, and should be 6-15 characters long"><br><br>
                
           <h4 style="font-size: 150%">Email Id:</h4>
-          <input type="email" id="mail" name="user_email" style="border-color:rgb(110,65,30);border-width:thin" size="30"  required><br><br>
+          <input type="email" id="mail" name="user_email" style="border-color:rgb(110,65,30);border-width:thin" size=""  required><br><br>
              
      <h4 style="font-size: 150%">Password:</h4>
-		    <input type="password" id="passw" name="user_password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" style="border-color:rgb(110,65,30);border-width:thin" size="30" required title="Password should contain atleast one UpperCase & one LowerCase alphabet, one digit/SpecialChar, and minimum 8 characters long">	<br><br>
+		    <input type="password" id="passw" name="user_password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" style="border-color:rgb(110,65,30);border-width:thin" size="" required title="Password should contain atleast one UpperCase & one LowerCase alphabet, one digit/SpecialChar, and minimum 8 characters long">	<br><br>
                 <br> <h4 style="font-size: 150%">Mobile:</h4>
-		        <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="mobile" name="user_mobile" style="border-color:rgb(110,65,30);border-width:thin" size="30" required title="Format: XXX-XXX-XXXX">   <br> <br>
+		        <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="mobile" name="user_mobile" style="border-color:rgb(110,65,30);border-width:thin" size="" required title="Format: XXX-XXX-XXXX">   <br> <br>
           
          
               <center><button class="button" type="submit">Sign Up</button></center><br><br>
